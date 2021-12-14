@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(26, 180, 129);
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: solid gray;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 10px;
+}
+
+#submit {
+    text-align: center;
+}

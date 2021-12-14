@@ -1,0 +1,31 @@
+.banner h2 {
+    color: cornflowerblue;
+    text - align: center;
+    font - size: 40 px;
+}
+.banner p {
+    color: green;
+    text - align: center;
+    font - size: 30 px;
+}
+.banner img {
+    margin - left: auto;
+    margin - right: auto;
+    width: 24 % ;
+    display: block;
+
+}
+.banner.text {
+        color: black;
+        font - size: 21 px;
+    }
+    .main h3 {
+        text - align: center;
+    }
+    .main.important {
+        font - size: 25 px;
+    }
+    .main.link {
+        color: blueviolet;
+        text - decoration: none;
+    }
