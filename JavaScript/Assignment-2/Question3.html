@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <Script>
+        var inputArray = [];
+        var size = 5;
+
+        function isEven(x) {
+            if (x % 2 == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        for (var i = 0; i < size; i++) {
+
+            //Taking Input from user
+            inputArray[i] = prompt('Enter Element ' + (i + 1));
+        }
+
+
+        function find(inputArray) {
+            for (var j = 0; j < size; j++) {
+
+                if (isEven(inputArray[j])) {
+                    return inputArray[j];
+                    break;
+                }
+            }
+        }
+        document.write(find(inputArray));
+    </Script>
+</body>
+
+
+</html>
