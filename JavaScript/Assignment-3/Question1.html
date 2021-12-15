@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <Script>
+        class Rectangle {
+            constructor(height, width) {
+                this.height = height;
+                this.width = width;
+            }
+        }
+
+        //creating instances using new
+        var rect1 = new Rectangle(10, 5);
+        var rect2 = new Rectangle(20, 15);
+
+        //getting values
+        document.write("rect1 height is" + rect1.height + ", ");
+        document.write("rect1 width is " + rect1.width + ", ");
+        document.write("<br>")
+
+        document.write("rect2 height is" + rect2.height + ", ");
+        document.write("rect2 width is " + rect2.width + ", ");
+        document.write("<br>")
+
+
+
+        document.write("updated values:");
+        //updating new value
+        rect1.height = 30;
+        rect1.width = 15;
+
+
+        document.write("rect1 height is" + rect1.height + ", ");
+        document.write("rect1 width is " + rect1.width + ", ");
+        document.write("<br>")
+    </Script>
+</body>
+
+</html>

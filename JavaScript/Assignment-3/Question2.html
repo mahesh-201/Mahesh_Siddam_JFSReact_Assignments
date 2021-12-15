@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <Script>
+        class Rectangle {
+            constructor(height, width) {
+                this.height = height;
+                this.width = width;
+            }
+            get area() {
+                return this.width * this.height;
+            }
+        }
+
+
+        var rect1 = new Rectangle(5, 5);
+        var rect2 = new Rectangle(10, 15);
+
+
+
+
+
+        document.write("rect1 area is " + rect1.area + "<br>");
+        document.write("rect2 area is " + rect2.area);
+    </Script>
+</body>
+
+</html>
