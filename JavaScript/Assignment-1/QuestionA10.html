@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>100 fibanocci numbers</h1>
+    <input type="number" id="number" />
+    <button onclick="fun();">click here</button>
+    <Script>
+        function fun() {
+            var num = document.getElementById("number").value;
+            var a = 0;
+            var b = 0;
+            var c = 1;
+            for (var i = 1; i <= 100; i++) {
+                a = b;
+                b = c;
+                c = a + b;
+                document.write(a + ", ");
+            }
+        }
+    </Script>
+</body>
+
+</html>
